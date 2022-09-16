@@ -1,0 +1,252 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background: url("elfamosoplage.jpg") fixed;
+    background-size: 100%;
+    background-position: center;
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+h2
+{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+p
+{
+    line-height: 2Opx;
+    color: grey;
+}
+
+.wrapper
+{
+    width: 700px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 2px rgb(133, 6, 6) solid;
+    border-radius: 3px;
+    background-color: rgba(19, 20, 20, 0.7);
+}
+
+.wrapper h2
+{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+}
+
+a
+{
+    color: grey;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover
+{
+    color: rgb(133, 6, 6);
+}
+
+a:visited
+{
+    color: grey;
+}
+
+/* HEADER */
+
+header
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 150px;
+    background-color: rgb(19, 20, 20);
+    padding-top: 20px;
+}
+
+header h1
+{
+    text-align: center;
+}
+
+header h2
+{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+header nav
+{
+    width: 940px;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    list-style: none;
+}
+
+header nav ul li a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+header nav ul li a:hover
+{
+    color: rgb(133, 6, 6);
+}
+
+/* AUTEUR */
+
+#auteur
+{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+
+#auteur h2
+{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#auteur p
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* COUVERTURE */
+
+#couverture
+{
+    margin-top: 100px;
+}
+
+#couverture h2
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#couverture div
+{
+    text-align: center;
+}
+
+/* PERSONNAGES */
+
+#personnages
+{
+    margin-top: 100px;
+}
+
+#personnages li
+{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 55px;
+}
+
+#personnages a:hover
+{
+    color: black;
+}
+
+kbd
+{
+    background-color: rgb(19, 20, 20);
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+kbd:hover
+{
+    background-color: rgb(133, 6, 6);
+}
+
+/* WATTPAD */
+
+#wattpad
+{
+    margin-top: 100px;
+}
+
+.wattpadlien
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wattpadlien:hover
+{
+    color: rgb(133, 6, 6);
+}
+
+
+/* FOOTER */
+
+footer
+{
+    height: 200px;
+    background-color: rgb(19, 20, 20);
+}
+
+footer p
+{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 90px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+footer a:hover
+{
+    color: rgb(133, 6, 6);
+}
+
+footer a:visited
+{
+    color: rgb(56, 56, 56);
+}

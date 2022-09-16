@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background: url("elfamosoplage.jpg") fixed;
+    background-size: 100%;
+    background-position: center;
+}
+
+.wrap
+{
+    width: 700px;
+    height: 700px;
+    margin: 150px auto;
+    padding: 50px;
+    border: 2px rgb(133, 6, 6) solid;
+    border-radius: 3px;
+    background-color: rgba(19, 20, 20, 0.7);
+}
+
+.titreperso
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.paragrapheperso
+{
+    margin-top: 50px;
+    line-height: 2Opx;
+    color: grey;
+    text-align: center;
+}
